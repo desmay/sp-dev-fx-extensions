@@ -32,10 +32,11 @@ export default class AppInsightsAdvancedApplicationCustomizer
         var appInsights = new ApplicationInsights({
             config: {
                 maxBatchInterval: 0,
+                connectionString:'InstrumentationKey=ec8c1c57-6733-f194-8753-a4b309fd7c82;EndpointSuffix=applicationinsights.us;IngestionEndpoint=https://usgovvirginia-1.in.applicationinsights.azure.us/;AADAudience=https://monitor.azure.us/;ApplicationId=304a6534-3e67-4af8-a6b7-5613cac9066a',
                 disableFetchTracking: true,
                 disableAjaxTracking: true,
                 //enableAutoRouteTracking: true,
-                instrumentationKey: `${this.properties.appInsightsKey}`,
+                //instrumentationKey: `${this.properties.appInsightsKey}`,
                 extensions: [reactPlugin],
                 extensionConfig: {
                     [reactPlugin.identifier]: { history: browserHistory }
