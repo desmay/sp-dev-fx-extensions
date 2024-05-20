@@ -32,7 +32,7 @@ export default class AppInsightsAdvancedApplicationCustomizer
         var appInsights = new ApplicationInsights({
             config: {
                 maxBatchInterval: 0,
-                connectionString:'InstrumentationKey=74134282-0275-f4b5-9d85-80e665c7ca1d;EndpointSuffix=applicationinsights.us;IngestionEndpoint=https://usgovvirginia-1.in.applicationinsights.azure.us/;AADAudience=https://monitor.azure.us/;ApplicationId=275ff6ae-ecb1-4bad-8948-32623ba15e82',
+                connectionString:'InstrumentationKey=05b6b193-a200-fae4-890e-18ac47372516;EndpointSuffix=applicationinsights.us;IngestionEndpoint=https://usgovvirginia-1.in.applicationinsights.azure.us/;AADAudience=https://monitor.azure.us/;ApplicationId=4050f93a-7f0d-4f46-9fbc-2d88564336cd ',
                 disableFetchTracking: true,
                 disableAjaxTracking: true,
                 //enableAutoRouteTracking: true,
